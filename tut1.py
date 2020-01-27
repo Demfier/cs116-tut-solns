@@ -1,5 +1,6 @@
 # This file contains solutions to CS116, Tutorial 1
 import math
+import check
 
 # CQ1: B) 25.0 (in python3, / returns a float by default)
 
