@@ -1,5 +1,5 @@
 # cs116-tut-solns
-Solution to CS116 Tutorials
+Solution to CS116 Tutorials (you can find tutorial slides [here](https://www.student.cs.uwaterloo.ca/~cs116/Tutorials/)).
 
 Follow the steps below to submit your changes:
 
