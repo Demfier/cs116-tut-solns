@@ -19,6 +19,7 @@ def is_triangle(s1, s2, s3):
     else:
         return "Triangle exists"
 
+
 # Tests for is_triangle go here
 
 
@@ -34,6 +35,7 @@ def fermat_check(a, b, c, n):
     elif a**n + b**n == c**n:
         return "Fermat was wrong!"
     return "Not a counter-example"
+
 
 # Tests for fermat_check go here
 
@@ -75,5 +77,6 @@ def is_perfect_num_alt(n):
     Purpose, Contracts & Requirements, and Examples go here
     """
     return n == sum_divisors_alt(n, 1)
+
 
 # Tests for is_perfect_num_alt go here

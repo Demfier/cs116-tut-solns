@@ -19,6 +19,7 @@ def closest_integer():
         return int_part + 1
     return int_part
 
+
 # Tests for closest_integer go here
 
 
@@ -31,6 +32,7 @@ def create_date():
                                 input('Enter the month: '),
                                 input('Enter the date: '))
 
+
 # Tests for create_date go here
 
 
@@ -41,6 +43,7 @@ def fill_the_string(s, n):
     full_copies = n // len(s)
     truncated_part = n % len(s)
     return s*full_copies + s[:truncated_part]
+
 
 # Tests for fill_the_string go here
 
@@ -62,6 +65,7 @@ def sum_up():
     nums_to_sum = int(input('Enter the amount of numbers to sum: '))
     print(read_and_sum(0, nums_to_sum))
 
+
 # Tests for sum_up go here
 
 
@@ -74,5 +78,6 @@ def my_string_count(s, c):
     if s[0] == c:
         return 1 + my_string_count(s[1:], c)
     return my_string_count(s[1:], c)  # and we have our own of ver. str.count!
+
 
 # Test for my_string_count go here
