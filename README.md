@@ -1,5 +1,7 @@
 # cs116-tut-solns
-Solution to CS116 Tutorials (you can find tutorial slides [here](https://www.student.cs.uwaterloo.ca/~cs116/Tutorials/)).
+Solution to CS116 Tutorials (you can find tutorial slides [here](https://www.student.cs.uwaterloo.ca/~cs116/Tutorials/)). The design recipe is left for the students to as practice.
+
+Contribution/Suggestions from students are more than welcome. Please make a pull request to add your contribution (e.g., adding design recipe)
 
 Follow the steps below to submit your changes:
 
