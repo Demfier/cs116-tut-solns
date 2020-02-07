@@ -9,7 +9,14 @@ def create_cards(values, suits):
     """
     Purpose, Contracts & Requirements, and Examples go here
     """
-    return list(map(lambda x: [x, suits[values.index(x)]], values))
+    return list(map(lambda x, y: [x, y], values, suits))
+
+
+def create_cards_alt(values, suits):
+    """
+    Purpose, Contracts & Requirements, and Examples go here
+    """
+    return list(map(lambda i: [x[i], y[i]], range(len(values))))
 
 
 # Tests for create_cards go here
@@ -125,3 +132,19 @@ def sanitize(s):
 
 
 # Tests for sanitize go here
+
+
+def reversed_list(L):
+    """
+    Purpose, Contracts & Requirements, and Examples go here
+    """
+    return list(map(lambda i: L[-(i+1)], range(len(L))))
+
+
+def reversed_list_alt(L):
+    """
+    Purpose, Contracts & Requirements, and Examples go here
+    """
+    return list(map(L.pop, [-1]*len(L)))
+
+# Tests for reversed_list go here
